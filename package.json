@@ -3,11 +3,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pm2start": "pm2 start npm --name shishikangh5 -- run start" 
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "swr": "^2.0.3",
+    "web3": "^1.8.2"
   }
 }
